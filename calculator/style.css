@@ -1,0 +1,23 @@
+.Calculator-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.Calculator {
+  border: 2px solid red;
+  height: 600px;
+  width: 450px;
+}
+
+.cal-butn {
+  cursor: pointer;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.cal-butn:hover {
+  background-color: yellow;
+  cursor: pointer;
+}
